@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[packages]
+jupyter = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+scikit-learn = "*"
+keras = "*"
+tensorflow = "*"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "<5.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
